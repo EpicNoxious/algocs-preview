@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Index</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!-- links-->
+  <link
+    rel="stylesheet"
+    type="text/css"
+    media="screen"
+    href="./static/css/styles.css"
+  />
+  <link
+    rel="stylesheet"
+    media="screen"
+    href="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.4/dist/locomotive-scroll.min.css"
+  />
+  <!-- scripts-->
+  <script src="https://unpkg.com/@barba/core"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.4/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.4/dist/locomotive-scroll.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1/bundled/lenis.min.js"></script>
+  <script defer src="./static/js/app.js"></script>
+</head>
+<!-- -->
+<!-- -->
+<!-- -->
+<body data-barba="wrapper" data-scroll-container id="scroll-container">
+  <!-- tiles-->
+  <canvas id="canvas"></canvas>
+  <!-- transition-->
+  <ul
+    class="transition"
+    data-scroll
+    data-scroll-sticky
+    data-scroll-target="#scroll-container"
+  >
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+  </ul>
+  <!-- navigation-->
+  <nav data-scroll data-scroll-sticky data-scroll-target="#scroll-container">
+    <span>dashboard</span>
+    <ul>
+      <li><a href="./index.html">Home</a></li>
+      <li><a href="./gallery.html">Gallery</a></li>
+      <li><a href="./about.html">About Us</a></li>
+      <li><a href="./partners.html">Collab</a></li>
+      <li><a href="./contact.html">Contact</a></li>
+    </ul>
+  </nav>
+  <div
+    class="logo"
+    data-scroll
+    data-scroll-sticky
+    data-scroll-target="#scroll-container"
+  >
+    <img src="./static/img/logo.svg" alt="algocs logo" />
+  </div>
+  <!-- main with sections-->
+  <main data-barba="container" data-barba-namespace="contact">
+    <section class="contact">
+      <object
+        class="cutout l"
+        type="image/svg+xml"
+        data="./temporary/cutoutl.svg"
+        alt="vectors"
+        srcset=""
+      ></object>
+      <div class="contact-container">
+        <div class="contact-content">
+          <div>
+            <div class="contact-number">01</div>
+            <div class="contact-head">locate us</div>
+          </div>
+          <div class="contact-text-container">
+            <p class="contact-text">xyz address,<br />new delhi - 1100XX</p>
+          </div>
+        </div>
+        <div class="contact-content">
+          <div>
+            <div class="contact-number">02</div>
+            <div class="contact-head">reach us</div>
+          </div>
+          <div class="contact-text-container">
+            <p
+              class="contact-text hoverable"
+              data-trailer-content="anmol.wri@gmail.com"
+            >
+              general
+            </p>
+            <p
+              class="contact-text hoverable"
+              data-trailer-content="+91 9999040232"
+            >
+              talk
+            </p>
+          </div>
+        </div>
+        <div class="contact-content">
+          <div>
+            <div class="contact-number">03</div>
+            <div class="contact-head">follow us</div>
+          </div>
+          <div class="contact-text-container">
+            <p class="contact-text follow hoverable" data-trailer-content="">
+              linkedin
+            </p>
+            <p class="contact-text follow hoverable" data-trailer-content="">
+              twitter
+            </p>
+            <p class="contact-text follow hoverable" data-trailer-content="">
+              developer
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="footer contact-footer">
+      <div class="footer-left">
+        <div class="footer-head">
+          <h5 class="footer-head-first">
+            <span class="foot-color">build </span>&nbsp;your
+          </h5>
+          <h5>path to</h5>
+          <h5>success</h5>
+        </div>
+        <div class="footer-content">
+          <div class="footer-content__contact">
+            <h6>contact us</h6>
+            <p class="hoverable" data-trailer-content="Nice to meet you">
+              hello@gmail.com
+            </p>
+          </div>
+          <div class="footer-content__follow">
+            <h6>follow us</h6>
+            <p class="hoverable" data-trailer-content="Let's Conect">
+              linkedin
+            </p>
+          </div>
+          <div class="footer-content__locate">
+            <h6>locate us</h6>
+            <p class="hoverable" data-trailer-content="See you soon">
+              xyz address
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="footer-right">
+        <div class="footer-copyright">
+          <p>&copy; algocs 2023</p>
+        </div>
+        <div class="footer-statement">
+          <div class="footer-privacy">
+            <p>privacy statement</p>
+          </div>
+          <div class="footer-legal">
+            <p>legal statement</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>

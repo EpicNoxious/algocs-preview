@@ -1,0 +1,172 @@
+// ................................
+// ................................ HERO
+// ................................
+section.hero {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  margin-left: 10vh;
+  & > h4 {
+    margin-top: 20vh;
+  }
+  .overflow {
+    overflow: hidden;
+    position: relative;
+  }
+  .overflow-build {
+    padding: 1rem 1rem 0 1rem !important;
+  }
+  h4 {
+    display: flex;
+    .slide-in {
+      transform: translateY(20vh);
+    }
+  }
+  .slide-in-in {
+    transform: translateY(20vh);
+    position: relative;
+    z-index: 3;
+  }
+  .check {
+    letter-spacing: -0.2rem;
+    position: absolute;
+    width: 100% !important;
+    height: 100% !important;
+    top: 0%;
+    left: 0%;
+    z-index: 2;
+    background-color: rgb(var(--tertiary));
+  }
+}
+
+.color {
+  color: rgb(var(--primary));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  vertical-align: baseline;
+  letter-spacing: -0.2rem;
+  position: relative;
+
+  svg {
+    position: absolute;
+    top: -1.5rem;
+    right: -1.5rem;
+    height: 2.4vw;
+    color: rgb(var(--tertiary));
+    background-color: rgb(var(--background));
+    border-radius: 100000px;
+    padding: 0.6rem;
+    // animation: rotate 2s linear infinite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 5;
+    opacity: 0;
+  }
+}
+@keyframes rotate {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.scroll-indicator {
+  position: absolute;
+  bottom: 5vh;
+  right: 3vh;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  img {
+    height: 25vh;
+  }
+  &__text {
+    height: 25vh;
+    writing-mode: vertical-rl;
+    margin: auto 0;
+    transform: rotate(180deg);
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    font-size: 1.2vw;
+    line-height: 0.1;
+    font-family: "Fivo", sans-serif;
+    text-transform: uppercase;
+    color: rgb(var(--tertiary));
+  }
+}
+// ................................
+// ................................ SESSIONS
+// ................................
+
+section.sessions {
+  height: 400vh;
+  width: 100%;
+  position: relative;
+  .img-box {
+    position: absolute;
+    top: 0%;
+    left: 27.5%;
+    bottom: 0%;
+    pointer-events: all;
+
+    &:nth-of-type(1) {
+      transform: translate(-50%, 50%);
+      z-index: 2;
+    }
+    &:nth-of-type(2) {
+      transform: translate(25%, 100%);
+      z-index: 3;
+    }
+    &:nth-of-type(3) {
+      transform: translate(100%, 150%);
+      z-index: 4;
+    }
+    &:nth-of-type(4) {
+      transform: translate(175%, 200%);
+      z-index: 5;
+    }
+    &:nth-of-type(5) {
+      transform: translate(100%, 250%);
+      z-index: 5;
+    }
+    &:nth-of-type(6) {
+      transform: translate(25%, 300%);
+      z-index: 5;
+    }
+    &:nth-of-type(7) {
+      transform: translate(-50%, 350%);
+      z-index: 5;
+    }
+    &:nth-of-type(8) {
+      transform: translate(25%, 400%);
+      z-index: 5;
+    }
+    &:nth-of-type(9) {
+      transform: translate(100%, 450%);
+      z-index: 5;
+    }
+    &:nth-of-type(10) {
+      transform: translate(175%, 500%);
+      z-index: 5;
+    }
+    &:nth-of-type(11) {
+      transform: translate(100%, 550%);
+      z-index: 5;
+    }
+    &:nth-of-type(12) {
+      transform: translate(25%, 600%);
+      z-index: 5;
+    }
+    &:nth-of-type(13) {
+      transform: translate(-50%, 650%);
+      z-index: 5;
+    }
+  }
+}

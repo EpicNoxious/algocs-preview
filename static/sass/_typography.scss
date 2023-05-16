@@ -1,0 +1,32 @@
+h1 {
+  margin: 0;
+  background-color: transparent;
+  font-size: 8vw;
+  text-transform: uppercase;
+  font-weight: 1000;
+  font-family: "Fivo", sans-serif;
+  line-height: 1;
+  color: rgb(var(--primary));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1vw;
+}
+
+h2 {
+  font-size: 4vw;
+  font-family: "Fivo", sans-serif;
+  font-weight: 1000;
+  text-transform: uppercase;
+}
+h4 {
+  color: rgb(var(--secondary));
+  font-family: Tahoma, Verdana, sans-serif;
+  font-size: 1.6vw;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+p {
+  font-family: "Vietnam";
+  font-size: 1.4vw;
+}

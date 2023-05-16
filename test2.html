@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Index</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!-- links-->
+  <link
+    rel="stylesheet"
+    type="text/css"
+    media="screen"
+    href="./static/css/test_css.css"
+  />
+  <!-- scripts-->
+  <script defer src="app.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1/bundled/lenis.min.js"></script>
+  <script src="https://unpkg.com/@barba/core"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.4/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1/bundled/lenis.min.js"></script>
+</head>
+<!-- -->
+<!-- -->
+<!-- -->
+<body data-barba="wrapper" data-scroll-container id="scroll-container">
+  <div class="cursor-hover">Sample Text</div>
+  <!-- tiles-->
+  <canvas id="canvas"></canvas>
+  <!-- transition-->
+  <ul
+    class="transition"
+    data-scroll
+    data-scroll-sticky
+    data-scroll-target="#scroll-container"
+  >
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+  </ul>
+  <!-- button for reveal animation-->
+  <!-- navigation-->
+  <nav data-scroll data-scroll-sticky data-scroll-target="#scroll-container">
+    <span>dashboard</span>
+    <ul>
+      <li><a href="../templates/index.html">Home</a></li>
+      <li><a href="../templates/gallery.html">Gallery</a></li>
+      <li><a href="../templates/about.html">About Us</a></li>
+      <li><a href="../templates/partners.html">Collab</a></li>
+      <li><a href="../templates/contact.html">Contact</a></li>
+    </ul>
+  </nav>
+  <!-- main with sections-->
+  <main data-barba="container" data-barba-namespace="index">
+    <section class="hero">
+      <h4>
+        <div class="overflow">
+          <div class="slide-in">This &nbsp;</div>
+        </div>
+        <div class="overflow">
+          <div class="slide-in">is &nbsp;</div>
+        </div>
+        <div class="overflow">
+          <div class="slide-in">algocs</div>
+        </div>
+      </h4>
+      <h1>
+        <span class="color">
+          <svg
+            class="color-svg hoverable"
+            data-trailer-content="Huh?"
+            viewbox="0 0 10 10"
+            fill="currentColor"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="m3.871 8.473 1.819.255.225-1.604-.064-1.1.016-.107.099.069.727.838 1.278.998 1.13-1.45-1.277-.997-.994-.495-.1-.068.146-.061 1.065-.205 1.503-.607-.688-1.705-1.503.606-.93.606-.115.038.02-.133.363-1.04.226-1.604L4.999.451l-.226 1.605.064 1.1-.023.16-.122-.1-.7-.834-1.278-.997-1.131 1.45 1.278.997.967.49.122.1-.114.038-1.092.2-1.503.607.687 1.706 1.503-.607.93-.606.115-.038-.015.107-.364 1.04-.226 1.604Z"
+            ></path>
+          </svg>
+          <div class="overflow overflow-build">
+            <div class="slide-in-in">build</div>
+            <div class="check"></div></div
+        ></span>
+        <div class="overflow">
+          <div class="slide-in-in">your</div>
+        </div>
+      </h1>
+      <h1>
+        <div class="overflow">
+          <div class="slide-in-in">path</div>
+        </div>
+        <div class="overflow">
+          <div class="slide-in-in">to</div>
+        </div>
+      </h1>
+      <h1>
+        <div class="overflow">
+          <div class="slide-in-in">success</div>
+        </div>
+      </h1>
+      <!-- scroll indicator-->
+    </section>
+    <!-- <section class="carousel">
+      <object
+        class="cutout r"
+        type="image/svg+xml"
+        data="../temporary/cutoutr.svg"
+        alt="vectors"
+        srcset=""
+      ></object>
+      <ul>
+        <li>
+          <h1>form</h1>
+        </li>
+        <li>
+          <h1>hone</h1>
+        </li>
+        <li>
+          <h1>grow</h1>
+        </li>
+        <li>
+          <h1>rise</h1>
+        </li>
+        <li>
+          <h1>form</h1>
+        </li>
+        <li>
+          <h1>hone</h1>
+        </li>
+        <li>
+          <h1>grow</h1>
+        </li>
+        <li>
+          <h1>rise</h1>
+        </li>
+      </ul>
+    </section> -->
+    <section class="sessions">
+      <h4>why you need us</h4>
+      <h2>we host sessions on</h2>
+      <div class="img-box hoverable" data-trailer-content="Bring Up">
+        <div class="img-box-container" tabindex="0">
+          <div class="toggle-container" tabindex="0">
+            <div class="img-cut">-</div>
+            <div class="img-title">c++</div>
+          </div>
+          <div class="img primary"><span>c++</span></div>
+          <div class="img-content">sample img</div>
+        </div>
+      </div>
+      <div class="img-box hoverable" data-trailer-content="Bring Up">
+        <div class="img-box-container" tabindex="0">
+          <div class="toggle-container">
+            <div class="img-cut">-</div>
+            <div class="img-title">dsa</div>
+          </div>
+          <div class="img secondary"><span>dsa</span></div>
+          <div class="img-content">sample img</div>
+        </div>
+      </div>
+      <div class="img-box hoverable" data-trailer-content="Bring Up">
+        <div class="img-box-container" tabindex="0">
+          <div class="toggle-container">
+            <div class="img-cut">-</div>
+            <div class="img-title">ml</div>
+          </div>
+          <div class="img tertiary"><span>ml</span></div>
+          <div class="img-content">sample img</div>
+        </div>
+      </div>
+      <div class="img-box hoverable" data-trailer-content="Bring Up">
+        <div class="img-box-container" tabindex="0">
+          <div class="toggle-container">
+            <div class="img-cut">-</div>
+            <div class="img-title">web dev</div>
+          </div>
+          <div class="img primary"><span>web dev</span></div>
+          <div class="img-content">sample img</div>
+        </div>
+      </div>
+      <div class="img-box hoverable" data-trailer-content="Bring Up">
+        <div class="img-box-container" tabindex="0">
+          <div class="toggle-container">
+            <div class="img-cut">-</div>
+            <div class="img-title">linux</div>
+          </div>
+          <div class="img secondary"><span>linux</span></div>
+          <div class="img-content">sample img</div>
+        </div>
+      </div>
+      <div class="img-box hoverable" data-trailer-content="Bring Up">
+        <div class="img-box-container" tabindex="0">
+          <div class="toggle-container">
+            <div class="img-cut">-</div>
+            <div class="img-title">git</div>
+          </div>
+          <div class="img tertiary"><span>git</span></div>
+          <div class="img-content">sample img</div>
+        </div>
+      </div>
+      <div class="img-box hoverable" data-trailer-content="Bring Up">
+        <div class="img-box-container" tabindex="0">
+          <div class="toggle-container">
+            <div class="img-cut">-</div>
+            <div class="img-title">vs code</div>
+          </div>
+          <div class="img primary"><span>vs code</span></div>
+          <div class="img-content">sample img</div>
+        </div>
+      </div>
+      <div class="img-box hoverable" data-trailer-content="Bring Up">
+        <div class="img-box-container" tabindex="0">
+          <div class="toggle-container">
+            <div class="img-cut">-</div>
+            <div class="img-title">linkeden</div>
+          </div>
+          <div class="img secondary"><span>linkedin</span></div>
+          <div class="img-content">sample img</div>
+        </div>
+      </div>
+      <div class="img-box hoverable" data-trailer-content="Bring Up">
+        <div class="img-box-container" tabindex="0">
+          <div class="toggle-container">
+            <div class="img-cut">-</div>
+            <div class="img-title">gsoc</div>
+          </div>
+          <div class="img tertiary"><span>gsoc</span></div>
+          <div class="img-content">sample img</div>
+        </div>
+      </div>
+      <div class="img-box hoverable" data-trailer-content="Bring Up">
+        <div class="img-box-container" tabindex="0">
+          <div class="toggle-container">
+            <div class="img-cut">-</div>
+            <div class="img-title">flutter</div>
+          </div>
+          <div class="img primary"><span>flutter</span></div>
+          <div class="img-content">sample img</div>
+        </div>
+      </div>
+      <div class="img-box hoverable" data-trailer-content="Bring Up">
+        <div class="img-box-container" tabindex="0">
+          <div class="toggle-container">
+            <div class="img-cut">-</div>
+            <div class="img-title">icpc</div>
+          </div>
+          <div class="img secondary"><span>icpc</span></div>
+          <div class="img-content">sample img</div>
+        </div>
+      </div>
+      <div class="img-box hoverable" data-trailer-content="Bring Up">
+        <div class="img-box-container" tabindex="0">
+          <div class="toggle-container">
+            <div class="img-cut">-</div>
+            <div class="img-title">database</div>
+          </div>
+          <div class="img tertiary"><span>database</span></div>
+          <div class="img-content">sample img</div>
+        </div>
+      </div>
+      <div class="img-box hoverable" data-trailer-content="Bring Up">
+        <div class="img-box-container" tabindex="0">
+          <div class="toggle-container">
+            <div class="img-cut">-</div>
+            <div class="img-title">sql</div>
+          </div>
+          <div class="img primary"><span>sql</span></div>
+          <div class="img-content">sample img</div>
+        </div>
+      </div>
+    </section>
+    <section class="metrics">
+      <h4>why choose ALGOCS</h4>
+      <h2>our metrics speak</h2>
+      <p class="subhead">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis est
+        consectetur autem quo deserunt? Omnis, vitae delectus! Vero provident
+        quasi distinctio itaque? Totam facere, quisquam accusamus nisi ducimus
+        in non!
+      </p>
+      <div class="metrics-content">
+        <div class="metrics-content--left">
+          <div class="number">01</div>
+          <div class="metrics-number">30+</div>
+          <div class="metrics-title">Groups</div>
+        </div>
+        <div class="metrics-content--right">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi
+          animi necessitatibus voluptatum ad, magnam enim aut architecto
+          corporis, fugit et, quos magni cum tenetur error itaque facilis amet.
+          In, fuga.
+        </div>
+      </div>
+      <div class="metrics-content">
+        <div class="metrics-content--left">
+          <div class="number">02</div>
+          <div class="metrics-number">10000+</div>
+          <div class="metrics-title">Members</div>
+        </div>
+        <div class="metrics-content--right">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi
+          animi necessitatibus voluptatum ad, magnam enim aut architecto
+          corporis, fugit et, quos magni cum tenetur error itaque facilis amet.
+          In, fuga.
+        </div>
+      </div>
+      <div class="metrics-content">
+        <div class="metrics-content--left">
+          <div class="number">03</div>
+          <div class="metrics-number">100+</div>
+          <div class="metrics-title">Sessions</div>
+        </div>
+        <div class="metrics-content--right">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi
+          animi necessitatibus voluptatum ad, magnam enim aut architecto
+          corporis, fugit et, quos magni cum tenetur error itaque facilis amet.
+          In, fuga.
+        </div>
+      </div>
+      <div class="metrics-content">
+        <div class="metrics-content--left">
+          <div class="number">04</div>
+          <div class="metrics-number">50+</div>
+          <div class="metrics-title">Colleges</div>
+        </div>
+        <div class="metrics-content--right">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi
+          animi necessitatibus voluptatum ad, magnam enim aut architecto
+          corporis, fugit et, quos magni cum tenetur error itaque facilis amet.
+          In, fuga.
+        </div>
+      </div>
+    </section>
+    <!-- <section class="carousel">
+      <object
+        class="cutout l"
+        type="image/svg+xml"
+        data="../temporary/cutoutl.svg"
+        alt="vectors"
+        srcset=""
+      ></object>
+      <ul>
+        <li>
+          <h1>logo</h1>
+        </li>
+        <li>
+          <h1>logo</h1>
+        </li>
+        <li>
+          <h1>logo</h1>
+        </li>
+        <li>
+          <h1>logo</h1>
+        </li>
+        <li>
+          <h1>logo</h1>
+        </li>
+        <li>
+          <h1>logo</h1>
+        </li>
+        <li>
+          <h1>logo</h1>
+        </li>
+        <li>
+          <h1>logo</h1>
+        </li>
+      </ul>
+    </section> -->
+    <section class="mail">
+      <h4>connect with us</h4>
+      <h2>become a part</h2>
+      <div class="mailbox">
+        <div class="mailbox--left">
+          <p class="subhead">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis
+            est consectetur autem quo deserunt? Omnis, vitae delectus! Vero
+            provident quasi distinctio itaque? Totam facere, quisquam accusamus
+            nisi ducimus in non!
+          </p>
+          <div class="mail-content">
+            <input type="text" placeholder="yourname@mail.com" />
+            <button class="btn btn" data-label="Join Us">
+              Join Us<span class="btn-bg-fixed"></span
+              ><span class="btn-bg-slide"></span>
+            </button>
+          </div>
+        </div>
+        <div class="mailbox--right">
+          <div
+            class="picture-lib hoverable"
+            tabindex="0"
+            data-trailer-content="Next"
+          >
+            <div class="mg-box hoverable" data-trailer-content="Next">
+              <div class="img-box-container" tabindex="0">
+                <div class="img primary"><span>img 1</span></div>
+              </div>
+            </div>
+            <div class="mg-box hoverable" data-trailer-content="Next">
+              <div class="img-box-container" tabindex="0">
+                <div class="img secondary"><span>img 2</span></div>
+              </div>
+            </div>
+            <div class="mg-box hoverable" data-trailer-content="Next">
+              <div class="img-box-container" tabindex="0">
+                <div class="img tertiary"><span>img 3</span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="footer">
+      <div class="footer-left">
+        <div class="footer-head">
+          <h5 class="footer-head-first">
+            <span class="foot-color">build </span>&nbsp;your
+          </h5>
+          <h5>path to</h5>
+          <h5>success</h5>
+        </div>
+        <div class="footer-content">
+          <div class="footer-content__contact">
+            <h6>contact us</h6>
+            <p class="hoverable" data-trailer-content="Nice to meet you">
+              hello@gmail.com
+            </p>
+          </div>
+          <div class="footer-content__follow">
+            <h6>follow us</h6>
+            <p class="hoverable" data-trailer-content="Let's Conect">
+              linkedin
+            </p>
+          </div>
+          <div class="footer-content__locate">
+            <h6>locate us</h6>
+            <p class="hoverable" data-trailer-content="See you soon">
+              xyz address
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="footer-right">
+        <div class="footer-copyright">
+          <p>&copy; algocs 2023</p>
+        </div>
+        <div class="footer-statement">
+          <div class="footer-privacy">
+            <p>privacy statement</p>
+          </div>
+          <div class="footer-legal">
+            <p>legal statement</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>

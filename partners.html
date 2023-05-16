@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Index</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!-- links-->
+  <link
+    rel="stylesheet"
+    type="text/css"
+    media="screen"
+    href="./static/css/styles.css"
+  />
+  <link
+    rel="stylesheet"
+    media="screen"
+    href="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.4/dist/locomotive-scroll.min.css"
+  />
+  <!-- scripts-->
+  <script src="https://unpkg.com/@barba/core"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.4/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.4/dist/locomotive-scroll.min.js"></script>
+  <script defer src="./static/js/app.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1/bundled/lenis.min.js"></script>
+</head>
+<!-- -->
+<!-- -->
+<!-- -->
+<body data-barba="wrapper" data-scroll-container id="scroll-container">
+  <div class="cursor-hover">Sample Text</div>
+  <!-- tiles-->
+  <canvas id="canvas"></canvas>
+  <!-- transition-->
+  <ul
+    class="transition"
+    data-scroll
+    data-scroll-sticky
+    data-scroll-target="#scroll-container"
+  >
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+  </ul>
+  <!-- navigation-->
+  <nav data-scroll data-scroll-sticky data-scroll-target="#scroll-container">
+    <span>dashboard</span>
+    <ul>
+      <li><a href="./index.html">Home</a></li>
+      <li><a href="./gallery.html">Gallery</a></li>
+      <li><a href="./about.html">About Us</a></li>
+      <li><a href="./partners.html">Collab</a></li>
+      <li><a href="./contact.html">Contact</a></li>
+    </ul>
+  </nav>
+  <div
+    class="logo"
+    data-scroll
+    data-scroll-sticky
+    data-scroll-target="#scroll-container"
+  >
+    <img src="./static/img/logo.svg" alt="algocs logo" />
+  </div>
+  <!-- main with sections-->
+  <main data-barba="container" data-barba-namespace="partners">
+    <section class="carousel">
+      <object
+        class="cutout r"
+        type="image/svg+xml"
+        data="./temporary/cutoutr.svg"
+        alt="vectors"
+        srcset=""
+      ></object>
+      <ul>
+        <li>
+          <h1>recent</h1>
+        </li>
+        <li>
+          <h1>collab</h1>
+        </li>
+        <li>
+          <h1>recent</h1>
+        </li>
+        <li>
+          <h1>collab</h1>
+        </li>
+        <li>
+          <h1>recent</h1>
+        </li>
+        <li>
+          <h1>collab</h1>
+        </li>
+        <li>
+          <h1>recent</h1>
+        </li>
+        <li>
+          <h1>collab</h1>
+        </li>
+      </ul>
+    </section>
+    <section class="recent-collab">
+      <div class="collab-container">
+        <div class="collab-img">
+          <div class="img-box hoverable" data-trailer-content="Bring Up">
+            <div class="img-box-container" tabindex="0">
+              <div class="toggle-container" tabindex="0">
+                <div class="img-cut">-</div>
+                <div class="img-title">c++</div>
+              </div>
+              <div class="img primary"><span>c++</span></div>
+              <div class="img-content">sample img</div>
+            </div>
+          </div>
+        </div>
+        <div class="collab-text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed ea
+          aperiam rem labore libero qui hic maiores ab, rerum ullam asperiores
+          optio ex. Atque rerum expedita provident id, voluptatum saepe!
+        </div>
+      </div>
+      <div class="collab-container">
+        <div class="collab-img">
+          <div class="img-box hoverable" data-trailer-content="Bring Up">
+            <div class="img-box-container" tabindex="0">
+              <div class="toggle-container" tabindex="0">
+                <div class="img-cut">-</div>
+                <div class="img-title">c++</div>
+              </div>
+              <div class="img secondary"><span>c++</span></div>
+              <div class="img-content">sample img</div>
+            </div>
+          </div>
+        </div>
+        <div class="collab-text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed ea
+          aperiam rem labore libero qui hic maiores ab, rerum ullam asperiores
+          optio ex. Atque rerum expedita provident id, voluptatum saepe!
+        </div>
+      </div>
+      <div class="collab-container">
+        <div class="collab-img">
+          <div
+            class="img-box hoverable"
+            data-trailer-content="Bring Up"
+            tabindex="0"
+          >
+            <div class="img-box-container" tabindex="0">
+              <div class="toggle-container" tabindex="0">
+                <div class="img-cut">-</div>
+                <div class="img-title">c++</div>
+              </div>
+              <div class="img tertiary"><span>c++</span></div>
+              <div class="img-content">sample img</div>
+            </div>
+          </div>
+        </div>
+        <div class="collab-text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed ea
+          aperiam rem labore libero qui hic maiores ab, rerum ullam asperiores
+          optio ex. Atque rerum expedita provident id, voluptatum saepe!
+        </div>
+      </div>
+      <div class="collab-container">
+        <div class="collab-img">
+          <div
+            class="img-box hoverable"
+            data-trailer-content="Bring Up"
+            tabindex="0"
+          >
+            <div class="img-box-container" tabindex="0">
+              <div class="toggle-container" tabindex="0">
+                <div class="img-cut">-</div>
+                <div class="img-title">c++</div>
+              </div>
+              <div class="img primary"><span>c++</span></div>
+              <div class="img-content">sample img</div>
+            </div>
+          </div>
+        </div>
+        <div class="collab-text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed ea
+          aperiam rem labore libero qui hic maiores ab, rerum ullam asperiores
+          optio ex. Atque rerum expedita provident id, voluptatum saepe!
+        </div>
+      </div>
+    </section>
+    <section class="stats">
+      <h4>dashboard</h4>
+      <h2>check algostistics</h2>
+      <div class="stats-container">
+        <div class="stats-strip">
+          <h3>which editor?</h3>
+        </div>
+        <div class="strip-container">
+          <ul class="strip-list">
+            <li>vs code: 50%</li>
+            <li>figma: 30%</li>
+            <li>git bash: 12%</li>
+            <li>other: 8%</li>
+            <li>vs code: 40%</li>
+            <li>figma: 50%</li>
+            <li>git bash: 5%</li>
+            <li>other: 5%</li>
+          </ul>
+        </div>
+      </div>
+      <br />
+      <div class="stats-container">
+        <div class="stats-strip">
+          <h3>what's clickin?</h3>
+        </div>
+        <div class="strip-container">
+          <ul class="strip-list">
+            <li>mouse: 40%</li>
+            <li>keyboard: 50%</li>
+            <li>touch pad: 10%</li>
+            <li>stylus: 0%</li>
+            <li>mouse: 30%</li>
+            <li>keyboard: 49%</li>
+            <li>touch pad: 17%</li>
+            <li>stylus: 4%</li>
+          </ul>
+        </div>
+      </div>
+      <br />
+      <div class="stats-container">
+        <div class="stats-strip">
+          <h3>preferred language</h3>
+        </div>
+        <div class="strip-container">
+          <ul class="strip-list">
+            <li>pug & scss: 40%</li>
+            <li>django: 20%</li>
+            <li>javascript: 30%</li>
+            <li>gsap: 10%</li>
+            <li>pug & scss: 40%</li>
+            <li>django: 20%</li>
+            <li>javascript: 30%</li>
+            <li>gsap: 10%</li>
+          </ul>
+        </div>
+      </div>
+      <br />
+      <div class="stats-container">
+        <div class="stats-strip">
+          <h3>what da dev doin?</h3>
+        </div>
+        <div class="strip-container">
+          <ul class="strip-list">
+            <li>eat: 100%</li>
+            <li>sleep: 100%</li>
+            <li>code: 0%</li>
+            <li>repeat: 100%</li>
+            <li>eat: 100%</li>
+            <li>sleep: 100%</li>
+            <li>code: 0%</li>
+            <li>repeat: 100%</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="footer">
+      <div class="footer-left">
+        <div class="footer-head">
+          <h5 class="footer-head-first">
+            <span class="foot-color">build </span>&nbsp;your
+          </h5>
+          <h5>path to</h5>
+          <h5>success</h5>
+        </div>
+        <div class="footer-content">
+          <div class="footer-content__contact">
+            <h6>contact us</h6>
+            <p class="hoverable" data-trailer-content="Nice to meet you">
+              hello@gmail.com
+            </p>
+          </div>
+          <div class="footer-content__follow">
+            <h6>follow us</h6>
+            <p class="hoverable" data-trailer-content="Let's Conect">
+              linkedin
+            </p>
+          </div>
+          <div class="footer-content__locate">
+            <h6>locate us</h6>
+            <p class="hoverable" data-trailer-content="See you soon">
+              xyz address
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="footer-right">
+        <div class="footer-copyright">
+          <p>&copy; algocs 2023</p>
+        </div>
+        <div class="footer-statement">
+          <div class="footer-privacy">
+            <p>privacy statement</p>
+          </div>
+          <div class="footer-legal">
+            <p>legal statement</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>

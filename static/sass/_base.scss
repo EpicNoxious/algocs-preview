@@ -1,0 +1,49 @@
+:root {
+  --tile-size: 5vw; /* Set default tile size */
+  --primary: 240, 240, 229;
+  --secondary: 23, 31, 230;
+  --tertiary: 245, 184, 34;
+  --background: 31, 31, 31;
+}
+
+.primary {
+  background-color: rgb(var(--primary)) !important;
+}
+.secondary {
+  background-color: rgb(var(--secondary)) !important;
+}
+.tertiary {
+  background-color: rgb(var(--tertiary)) !important;
+}
+.background {
+  background-color: rgb(var(--background)) !important;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-rendering: optimizeLegibility;
+  cursor: default;
+}
+
+html,
+body {
+  user-select: none;
+  scroll-behavior: smooth;
+  margin: 0;
+  overflow-x: hidden;
+  background-color: rgb(var(--background));
+  position: relative;
+  color: rgb(var(--primary));
+  font-family: "Vietnam";
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+main {
+  pointer-events: none;
+  z-index: 2;
+  position: relative;
+}

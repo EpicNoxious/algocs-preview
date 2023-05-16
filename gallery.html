@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Index</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!-- links-->
+  <link
+    rel="stylesheet"
+    type="text/css"
+    media="screen"
+    href="./static/css/styles.css"
+  />
+  <link
+    rel="stylesheet"
+    media="screen"
+    href="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.4/dist/locomotive-scroll.min.css"
+  />
+  <!-- scripts-->
+  <script src="https://unpkg.com/@barba/core"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.4/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.4/dist/locomotive-scroll.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1/bundled/lenis.min.js"></script>
+  <script defer src="./static/js/app.js"></script>
+</head>
+<!-- -->
+<!-- -->
+<!-- -->
+<body data-barba="wrapper" data-scroll-container id="scroll-container">
+  <!-- tiles-->
+  <canvas id="canvas"></canvas>
+  <!-- transition-->
+  <ul
+    class="transition"
+    data-scroll
+    data-scroll-sticky
+    data-scroll-target="#scroll-container"
+  >
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+  </ul>
+  <!-- navigation-->
+  <nav data-scroll data-scroll-sticky data-scroll-target="#scroll-container">
+    <span>dashboard</span>
+    <ul>
+      <li><a href="./index.html">Home</a></li>
+      <li><a href="./gallery.html">Gallery</a></li>
+      <li><a href="./about.html">About Us</a></li>
+      <li><a href="./partners.html">Collab</a></li>
+      <li><a href="./contact.html">Contact</a></li>
+    </ul>
+  </nav>
+  <div
+    class="logo"
+    data-scroll
+    data-scroll-sticky
+    data-scroll-target="#scroll-container"
+  >
+    <img src="./static/img/logo.svg" alt="algocs logo" />
+  </div>
+  <!-- main with sections-->
+  <main data-barba="container" data-barba-namespace="gallery">
+    <section class="gallery">
+      <div id="gallery-container">
+        <div class="gallery-box">
+          <img
+            src="https://images.unsplash.com/photo-1481349518771-20055b2a7b24?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjF8fHJhbmRvbSUyMG9iamVjdHN8ZW58MHx8MHx8&amp;auto=format&amp;fit=crop&amp;w=800&amp;q=70"
+          />
+        </div>
+        <div class="gallery-box">
+          <img
+            src="https://images.unsplash.com/photo-1515266591878-f93e32bc5937?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGJsdWV8ZW58MHx8MHx8&amp;auto=format&amp;fit=crop&amp;w=800&amp;q=70"
+          />
+        </div>
+        <div class="gallery-box">
+          <img
+            src="https://images.unsplash.com/photo-1587590227264-0ac64ce63ce8?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8cmFuZG9tJTIwb2JqZWN0c3xlbnwwfHwwfHw%3D&amp;auto=format&amp;fit=crop&amp;w=800&amp;q=70"
+          />
+        </div>
+        <div class="gallery-box">
+          <img
+            src="https://images.unsplash.com/photo-1520121401995-928cd50d4e27?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8Z3JlZW58ZW58MHx8MHx8&amp;auto=format&amp;fit=crop&amp;w=800&amp;q=70"
+          />
+        </div>
+        <div class="gallery-box">
+          <img
+            src="https://images.unsplash.com/photo-1511447333015-45b65e60f6d5?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8cHVycGxlfGVufDB8fDB8fA%3D%3D&amp;auto=format&amp;fit=crop&amp;w=800&amp;q=70"
+          />
+        </div>
+        <div class="gallery-box">
+          <img
+            src="https://images.unsplash.com/photo-1557800636-894a64c1696f?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8b3JhbmdlfGVufDB8fDB8fA%3D%3D&amp;auto=format&amp;fit=crop&amp;w=800&amp;q=70"
+          />
+        </div>
+        <div class="gallery-box">
+          <img
+            src="https://images.unsplash.com/photo-1520338258525-606b90f95b04?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fGRhcmslMjBibHVlfGVufDB8fDB8fA%3D%3D&amp;auto=format&amp;fit=crop&amp;w=800&amp;q=70"
+          />
+        </div>
+        <div class="gallery-box">
+          <img
+            src="https://images.unsplash.com/photo-1521127474489-d524412fd439?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTh8fHJhbmRvbSUyMG9iamVjdHN8ZW58MHx8MHx8&amp;auto=format&amp;fit=crop&amp;w=800&amp;q=70"
+          />
+        </div>
+        <div class="gallery-box">
+          <img
+            src="https://images.unsplash.com/photo-1598300042247-d088f8ab3a91?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8cmFuZG9tJTIwb2JqZWN0c3xlbnwwfHwwfHw%3D&amp;auto=format&amp;fit=crop&amp;w=800&amp;q=70"
+          />
+        </div>
+      </div>
+    </section>
+  </main>
+</body>

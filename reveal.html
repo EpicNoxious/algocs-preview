@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>lp-reveal</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <button class="btn">Enter</button>
+      <ul class="text-container">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+      <div class="text-wrapper">
+        <div class="text">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus
+          est, molestie id porta quis, sollicitudin at velit.
+        </div>
+        <div class="text">
+          Vestibulum pretium at lectus sed rutrum. Integer vel quam neque.
+          Phasellus et lectus vitae quam euismod tincidunt.
+        </div>
+        <div class="text">
+          Fusce commodo placerat semper. Vestibulum ut dapibus nunc, eu molestie
+          elit. Vestibulum lobortis aliquam nibh.
+        </div>
+        <div class="text">
+          Non blandit mauris fringilla quis. Nunc sit amet fringilla quam.
+          Mauris et felis quis mauris iaculis gravida ac in enim.
+        </div>
+        <div class="text">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus
+          est, molestie id porta quis, sollicitudin at velit.
+        </div>
+        <div class="text">
+          Vestibulum pretium at lectus sed rutrum. Integer vel quam neque.
+          Phasellus et lectus vitae quam euismod tincidunt.
+        </div>
+        <div class="text">
+          Fusce commodo placerat semper. Vestibulum ut dapibus nunc, eu molestie
+          elit. Vestibulum lobortis aliquam nibh.
+        </div>
+        <div class="text">
+          Non blandit mauris fringilla quis. Nunc sit amet fringilla quam.
+          Mauris et felis quis mauris iaculis gravida ac in enim.
+        </div>
+        <div class="text">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus
+          est, molestie id porta quis, sollicitudin at velit.
+        </div>
+        <div class="text">
+          Vestibulum pretium at lectus sed rutrum. Integer vel quam neque.
+          Phasellus et lectus vitae quam euismod tincidunt.
+        </div>
+        <div class="text">
+          Fusce commodo placerat semper. Vestibulum ut dapibus nunc, eu molestie
+          elit. Vestibulum lobortis aliquam nibh.
+        </div>
+        <div class="text">
+          Non blandit mauris fringilla quis. Nunc sit amet fringilla quam.
+          Mauris et felis quis mauris iaculis gravida ac in enim.
+        </div>
+        <div class="text">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus
+          est, molestie id porta quis, sollicitudin at velit.
+        </div>
+        <div class="text">
+          Vestibulum pretium at lectus sed rutrum. Integer vel quam neque.
+          Phasellus et lectus vitae quam euismod tincidunt.
+        </div>
+        <div class="text">
+          Fusce commodo placerat semper. Vestibulum ut dapibus nunc, eu molestie
+          elit. Vestibulum lobortis aliquam nibh.
+        </div>
+        <div class="text">
+          Non blandit mauris fringilla quis. Nunc sit amet fringilla quam.
+          Mauris et felis quis mauris iaculis gravida ac in enim.
+        </div>
+      </div>
+      <div class="header">Voyage</div>
+    </div>
+    <script>
+      const btn = document.querySelector(".btn");
+
+      btn.addEventListener("click", function () {
+        gsap.to(".btn", 1, {
+          opacity: 0,
+          y: -50,
+          ease: Expo.easeInOut,
+        });
+
+        gsap.to(".text-wrapper > div", 1, {
+          x: "500",
+          ease: Expo.easeInOut,
+          delay: 1,
+          stagger: 0.1,
+        });
+
+        gsap.to(".text-wrapper", 3, {
+          y: -400,
+          scale: 4.5,
+          rotate: -90,
+          ease: Expo.easeInOut,
+          delay: 1.5,
+        });
+
+        gsap.to(".text", 1, {
+          opacity: 1,
+          ease: Expo.easeInOut,
+          delay: 3,
+        });
+
+        gsap.to(".text-wrapper > div", 4, {
+          x: "-4000",
+          ease: Expo.easeInOut,
+          delay: 3.5,
+          stagger: 0.05,
+        });
+
+        gsap.to(".text-container li", {
+          //   bottom: "-100%",
+          duration: 0.5,
+          scaleY: 0,
+          transformOrigin: "bottom left",
+          stagger: 0.1,
+          delay: 6.5,
+        });
+      });
+    </script>
+  </body>
+</html>

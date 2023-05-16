@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Index</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!-- links-->
+  <link
+    rel="stylesheet"
+    type="text/css"
+    media="screen"
+    href="./static/css/styles.css"
+  />
+  <link
+    rel="stylesheet"
+    media="screen"
+    href="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.4/dist/locomotive-scroll.min.css"
+  />
+  <!-- scripts-->
+  <script src="https://unpkg.com/@barba/core"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.4/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.4/dist/locomotive-scroll.min.js"></script>
+  <script defer src="./static/js/app.js"></script>
+</head>
+<!-- -->
+<!-- -->
+<!-- -->
+<body data-barba="wrapper" data-scroll-container id="scroll-container">
+  <!-- tiles-->
+  <div id="tile-container"></div>
+  <!-- transition-->
+  <ul
+    class="transition"
+    data-scroll
+    data-scroll-sticky
+    data-scroll-target="#scroll-container"
+  >
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+  </ul>
+  <!-- navigation-->
+  <nav data-scroll data-scroll-sticky data-scroll-target="#scroll-container">
+    <span>dashboard</span>
+    <ul>
+      <li><a href="./index.html">Home</a></li>
+      <li><a href="./gallery.html">Gallery</a></li>
+      <li><a href="./about.html">About Us</a></li>
+      <li><a href="./about.html">Contact</a></li>
+    </ul>
+  </nav>
+  <!-- main with sections-->
+  <main data-barba="container" data-barba-namespace="index">
+    <section class="carousel">
+      <object
+        class="cutout l"
+        type="image/svg+xml"
+        data="../temporary/cutoutl.svg"
+        alt="vectors"
+        srcset=""
+      ></object>
+      <ul>
+        <li>
+          <h1>about</h1>
+        </li>
+        <li>
+          <h1>algocs</h1>
+        </li>
+        <li>
+          <h1>about</h1>
+        </li>
+        <li>
+          <h1>algocs</h1>
+        </li>
+        <li>
+          <h1>about</h1>
+        </li>
+        <li>
+          <h1>algocs</h1>
+        </li>
+        <li>
+          <h1>about</h1>
+        </li>
+        <li>
+          <h1>algocs</h1>
+        </li>
+      </ul>
+    </section>
+    <section class="about">
+      <div class="about__left">
+        <h4>our journey</h4>
+        <h2>where it all began</h2>
+        <p>
+          Praesent egestas varius felis. Integer aliquet venenatis elit et
+          ornare. Nam ut blandit lectus. Mauris a sem tempor, posuere dolor
+          imperdiet, egestas est. Fusce ipsum neque, pretium sed felis a,
+          accumsan commodo tellus. Vivamus eu risus eget erat tincidunt
+          efficitur. <br /><br />Nam consequat ipsum neque, sit amet lobortis
+          nisi dignissim ac. Sed turpis lectus, tempus nec imperdiet ut, laoreet
+          nec orci. Etiam vitae dolor bibendum, tristique risus non, volutpat
+          odio. Aliquam sagittis turpis et faucibus tempus. Duis a venenatis
+          libero, sed ullamcorper nunc. Fusce nisl ante, venenatis eu
+          sollicitudin vel, sagittis sed felis. Praesent tempus lacus eget
+          feugiat finibus. Etiam eget urna maximus, commodo libero mattis,
+          rutrum leo. Vestibulum laoreet velit sed nibh porta, eget consequat
+          ligula lacinia. Phasellus id sodales massa.
+        </p>
+      </div>
+      <div class="about__right">
+        <div class="img-box">
+          <div class="img-box-container" tabindex="0">
+            <div class="toggle-container">
+              <div class="img-cut">&mdash;</div>
+              <div class="img-title">sample img</div>
+            </div>
+            <div class="img img-src tertiary">
+              <img src="../static/img/sample_img.png" alt="image of jappreet" />
+            </div>
+            <div class="img-content">sample img</div>
+          </div>
+        </div>
+        <div class="img-box">
+          <div class="img-box-container" tabindex="0">
+            <div class="toggle-container toggle-container-src">
+              <div class="img-cut">&mdash;</div>
+              <div class="img-title">sample img</div>
+            </div>
+            <div class="img img-src primary">
+              <img src="../static/img/sample_img.png" alt="image of jappreet" />
+            </div>
+            <div class="img-content img-content-src">sample img</div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
